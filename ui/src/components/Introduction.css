@@ -1,0 +1,176 @@
+.introduction {
+    padding: 52px 64px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    color: var(--primary-text-color);
+
+    .link {
+        margin: 0.5em 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.11;
+        color: var(--white);
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            color: var(--bold-primary-color);
+        }
+    }
+
+    header {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--bold-primary-color);
+        }
+    }
+
+    .blockTitle {
+        padding: 36px 0 24px 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.22;
+        letter-spacing: normal;
+        color: var(--white);
+    }
+
+    h1 {
+        font-size: 62px;
+        line-height: 1;
+        color: var(--white);
+    }
+
+    .intro {
+        max-width: 554px;
+        padding-bottom: 80px;
+
+        .primaryText {
+            font-size: 16px;
+            padding-bottom: 40px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+        }
+    }
+
+    .withLine {
+
+        &:before {
+            display: inline-block;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, #47516e 0%, #272f47 100%);
+        }
+    }
+
+    .features {
+        max-width: 554px;
+        position: relative;
+    }
+
+    .explanation {
+        padding-bottom: 24px;
+        position: relative;
+
+        .title {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.33;
+            color: var(--white);
+        }
+        .text {
+            margin: 0;
+        }
+    }
+    .withIconBlock {
+        padding-top: 46px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .withIcon {
+        max-width: 245px;
+        padding-top: 10px;
+
+        &:before {
+            top: -10px;
+            position: relative;
+            content: '';
+            display: inline-block;
+            width: 62px;
+            height: 67px;
+            background: linear-gradient(to right, #47516e 0%, #272f47 100%);
+        }
+    }
+
+    .ticketCustomization {
+        max-width: 554px;
+    }
+
+    .organization {
+        display: flex;
+        justify-content: space-between;
+
+        .organizationPicture {
+
+            .picture {
+                width: 708px;
+                height: 490px;
+                border-radius: 4px;
+                background: linear-gradient(to right, #47516e 0%, #272f47 100%);
+            }
+
+            .organizationLink {
+                display: flex;
+                padding-top: 18px;
+
+                .linkText {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 1.11;
+                }
+            }
+        }
+
+        .organizationAbout {
+            max-width: 399px;
+        }
+    }
+
+    .pricing {
+        .pricingItems {
+            display: flex;
+            justify-content: space-between;
+
+            .explanation {
+                max-width: 399px;
+            }
+        }
+    }
+
+    .footer {
+        .text {
+            padding: 160px 0 0 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #47516e;
+        }
+    }
+
+}
+
+@media (min-width: 1300px) {
+    body {
+        width: 1300px;
+        margin: 0 auto;
+    }
+}
+

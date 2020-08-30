@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bgc-color);
+}
+
+.primaryButton {
+    border: none;
+    padding: 9px 18px;
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+    box-shadow: 0 1px 5px -2px #1b202d;
+    background-color: var(--orange-color);
+    cursor: pointer;
+    outline: 0;
+}
+
+:root {
+    --bgc-color: #272f47;
+    --bold-primary-color: #d86152;
+    --white: #ffffff;
+    --primary-text-color: #c7cee3;
+    --orange-color : #d75545;
+}
+
+
